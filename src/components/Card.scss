@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+
+.card--section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+
+    .card--wrapper {
+        width: 30%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        background-color: rgb(255, 238, 0);
+        margin-top: 15px;
+        box-shadow: 4px 4px #ff0080, 4px -4px #00ffc8;
+        padding: 5px;
+        min-height: 100%;
+        margin-bottom: 20px;
+
+        .card__size {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+
+            .text__size {
+                color: #120b2c;
+                text-shadow: 2px 2px #00ffc8;
+                font-size: 16px;
+                font-weight: 700;
+            }
+
+            .select__size {
+                width: 40%;
+                background-color: transparent;
+                border: 2px solid rgb(18, 11, 44);
+                border-radius: 5px;
+                height: 30px;
+                box-shadow: 2px 2px #00ffc8;
+
+            }
+        }
+
+        .card__color {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+
+            .text__color {
+                color: #120b2c;
+                text-shadow: 2px 2px #00ffc8;
+                font-size: 16px;
+                font-weight: 700;
+            }
+
+            .select__color {
+                width: 40%;
+                background-color: transparent;
+                border: 2px solid rgb(18, 11, 44);
+                border-radius: 5px;
+                height: 30px;
+                box-shadow: 2px 2px #00ffc8;
+
+            }
+        }
+
+        .card__quantity {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+
+            .text__quantity {
+                color: #120b2c;
+                text-shadow: 2px 2px #00ffc8;
+                font-size: 16px;
+                font-weight: 700;
+            }
+
+            .select__quantity {
+                width: 40%;
+                background-color: transparent;
+                border: 2px solid rgb(18, 11, 44);
+                border-radius: 5px;
+                height: 30px;
+                box-shadow: 2px 2px #00ffc8;
+
+            }
+        }
+
+        .card__button {
+            height: 60px;
+            background-color: rgb(18, 11, 44);
+            color: rgb(255, 238, 0);
+            border: none;
+            box-shadow: 2px 2px #00ffc8;
+            margin-bottom: 10px;
+            font-weight: 700;
+            transition: all .3s ease;
+
+            &:hover {
+                color: #ff0080;
+                cursor: pointer;
+            }
+        }
+
+        .card_name {
+            text-align: left;
+            color: #120b2c;
+            text-shadow: 0.06em 0.06em #ff0080;
+            font-family: "Staatliches", cursive;
+            font-size: 35px;
+            letter-spacing: 0.1em;
+            margin-top: 5px;
+            margin-bottom: 5px;
+
+        }
+
+        .card_model {
+            margin-top: 10px;
+            margin-bottom: 5px;
+            text-align: left;
+            color: #120b2c;
+            font-family: "Staatliches", cursive;
+            font-size: 20px;
+            letter-spacing: 0.1em;
+        }
+
+        .card__shipping {
+            margin-top: 10px;
+            margin-bottom: 5px;
+            text-align: left;
+            color: #120b2c;
+            font-family: "Staatliches", cursive;
+            font-size: 20px;
+            letter-spacing: 0.1em;
+            margin-bottom: 20px;
+        }
+
+        .card__desc {
+            text-align: left;
+            color: #120b2c;
+            // font-family: "Staatliches", cursive;
+            font-size: 16px;
+            margin-bottom: 5px;
+            font-weight: 500;
+
+        }
+
+        .card__price {
+            font-size: 30px;
+            font-weight: 700;
+            color: #ff0080;
+            margin-top: 20px;
+
+        }
+
+        .img__wrapper {
+            overflow: hidden;
+            display: inline-block;
+            box-shadow: 2px 2px #ff0080, 2px -2px #00ffc8;
+
+            .card_img {
+                width: 100%;
+                transition: 1s;
+                display: block;
+
+                &:hover {
+                    transform: scale(1.2);
+                }
+
+            }
+
+
+        }
+
+    }
+}
